@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+div {
+    background-color: #222222;
+    color: rgb(240, 239, 239);
+    font-family: "Quicksand";
+    height: 100%;
+    width: 10%;
+    display: inline-block;
+    position: fixed;
+    z-index: 999;
+}
+.logo {
+    display: none;
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.3em;
+}
+ul li {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ul a {
+    color: white;
+    text-decoration: none;
+}
+ul li:hover {
+    background-color: rgb(252, 122, 62);
+    color: black;
+    transition-duration: 180ms;
+}
+@media only screen and (max-width: 950px) {
+    ul li {
+        display: inline;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    a{
+        line-height: 50px;
+    }
+    ul {
+        float: right;
+    }
+    div {
+        height: 50px;
+        width: 100vw;
+    }
+    /* .logo {
+        float: left;
+    }
+    .logo li {
+        display: inline;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: 50px;
+    }
+    .logo {
+        display: none;
+    } */
+    
+}
+@media only screen and (max-width: 300px){
+    ul {
+        font-size: 1em;
+    }
+}

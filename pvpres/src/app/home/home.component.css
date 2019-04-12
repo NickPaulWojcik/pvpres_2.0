@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+/* 
+body, html {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+} */
+/* .video_splash {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: black;
+    top: 0;
+    left: 0;
+}
+video {
+    position: fixed;
+    height: 100%;
+    overflow-x: hidden;
+    z-index: 10;
+} */
+.content_container {
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    /* background-color: blue; */
+    /* z-index: 100; */
+}
+.search_box {
+    color: white;
+    background-color: rgba(0, 0, 0, .9);
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    border-radius: 2px;
+    /* z-index: 120; */
+    -webkit-box-shadow: 0px 0px 31px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 31px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 31px 3px rgba(0,0,0,0.75);
+}
+img {
+    height: 20px;
+    width: 20px;
+    transform: translate(30px, 5px);
+}
+input {
+    height: 24px;
+    width: 250px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 2px;
+    padding-left: 40px;
+    color: white;
+    font-family: 'Quicksand';
+}
+.input_container {
+    display: inline-block;
+    position: relative;
+    left: 35px;
+    font-family: 'Quicksand';
+    text-align: center;
+}
+button {
+    background: rgb(34, 45, 90);
+    border: none;
+    color: white;
+    height: 24px;
+    width: 150px;
+    font-family: 'Quicksand';
+    -webkit-box-shadow: 0px 0px 31px 3px rgba(20, 7, 150, 0.75);
+    -moz-box-shadow: 0px 0px 31px 3px rgba(20, 7, 150, 0.75);
+    box-shadow: 0px 0px 31px 3px rgba(8, 0, 99, 0.75);
+    transform: translate(10px, 0px);
+}
+button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+h3 {
+    transform: translate(10px, 0px);
+}
+@media only screen and (max-width: 500px){
+    .search_box{
+        width: 350px;
+    }
+    input {
+        width: 200px;
+    }
+    button {
+        
+    }
+}

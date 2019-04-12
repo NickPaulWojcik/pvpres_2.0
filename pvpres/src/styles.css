@@ -1,0 +1,24 @@
+body, html {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* fixed static background */
+html::before {
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    content: ' ';
+    display: block;
+    background-image: url('./assets/splash_solid.jpg');
+    background-position: left;
+    background-size: cover  ;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: -10; 
+  }

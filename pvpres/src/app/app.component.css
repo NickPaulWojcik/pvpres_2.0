@@ -1,0 +1,9 @@
+app-nav {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    /* position: fixed; */
+}
+router-outlet {
+    
+}
